@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1a202c;
+    background-color: rgb(22, 38, 39);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 5px solid black;
+    background-color: rgb(22, 38, 39);
+}
+
+.logo img {
+    max-width: 100px; 
+    padding-left: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
+    padding: 20px 70px 20px 0px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+
+a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+.achtergrondfoto{
+    background-image: url('../images/achtergrondheader2.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    border-bottom: 5px solid black;
+   
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    padding-top: 150px;
+    
+}
+
+
+.intro {
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    width: 50vw;
+}
+
+.headerlink {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #1a202c;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.headerlink a {
+    flex-direction: row;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.introductie-container {
+    display: flex;
+    gap: 30px;
+    width: 70vw;
+    height: 35vw;
+    justify-content: center; 
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+
+   
+
+}
+
+.introductie-container article {
+    flex: 1 1 0; /* Zorgt ervoor dat artikelen gelijkmatig ruimte innemen */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Maak de ruimte tussen afbeeldingen en tekst iets kleiner */
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: left;
+    
+}
+
+.introductie-container article img {
+    width: 100%; /* Laat de afbeelding de volledige breedte van de container innemen */
+    height: 250px; /* Houd de aspect ratio intact */
+    max-width: 100%; /* Zorg ervoor dat de afbeelding niet groter wordt dan de container */
+    object-fit: cover; /* Snijdt de afbeelding bij als deze te groot is en vult de container */
+    object-position: top;
+    border-radius: 1vw; /* Behoud de afgeronde hoeken */
+    margin-bottom: 20px;
+   
+
+}
+
+.introductie-container article h3 {
+    margin-bottom: 0px;
+}
+
+.olav, .noah, .pepijn {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2.5rem; /* Pas de grootte aan zoals nodig */
+    font-weight: bold; /* Zorg voor een vetgedrukt effect */
+    text-align: left; /* Uitlijning links, als dat het ontwerp volgt */
+    padding-bottom: 20px; /* Ruimte onder de titel */
+    color: white; /* Kies een kleur die past bij de rest van de stijl */
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+    
+
+}
+
+.star-rating {
+    direction: rtl;
+    font-size: 1.2rem;
+    unicode-bidi: bidi-override;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+    color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 500px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 25px;
+    
+}
+
+.footer-links2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links2 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.button-card {
+    padding: 15px 20px;
+    background-color: grey;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.button-card:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    float: left;
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    background-color: #0044cc;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.contact-section {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    padding: 9px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button.btn-verzenden {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.btn-verzenden:hover {
+    background-color: #003399;
+}
+
+.designer-note {
+    background-color: #ffffcc;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-logo {
+    width: 50px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 10px;
+}
